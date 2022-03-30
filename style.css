@@ -8,6 +8,7 @@
 
 html {
     font-size: 100%;
+    font-weight: Regular 400; 
 }
 body {
     background-color: white;
@@ -35,6 +36,7 @@ body {
 }
 @media only screen and (min-width: 1000px){
     html {
+        font-family: 'Palette Mosaic', cursive;
         font-size: 1.4rem;
     }
     body {
