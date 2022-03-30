@@ -20,6 +20,17 @@ body {
         color: white;
     }
   }
+  
+nav {
+    background: darkblue;
+    padding: 0 15px;
+}
+.menu {   
+    list-style-type: none;
+}
+.item {
+    padding: 10px;
+}
 
 @media only screen and (max-width: 400px){
     .descrip {
@@ -27,6 +38,11 @@ body {
     }
 }
 @media only screen and (min-width: 700px){
+    .menu {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content:flex-start;
+    }
     html {
         font-size: 1.2rem;
     }
