@@ -8,6 +8,16 @@
 
 body {
     background-color: var(--light);
+
+}
+
+.card-container {
+    display: flex;
+    flex-flow: row wrap;
+}
+.card-container>* {
+    flex-grow: 0;
+    flex-basis: 20%;
 }
 
 .card {
