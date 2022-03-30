@@ -9,11 +9,39 @@
 html {
     font-size: 100%;
 }
-
 body {
-    background-color: var(--light);
+    background-color: white;
+    color: black;
+  }
+  @media screen and (prefers-color-scheme: dark) {
+    body {
+        background-color: black;
+        color: white;
+    }
+  }
 
+@media only screen and (max-width: 400px){
+    .descrip {
+        display: none;     
+    }
 }
+@media only screen and (min-width: 700px){
+    html {
+        font-size: 1.2rem;
+    }
+    body {
+        background-color: lightblue
+    }
+}
+@media only screen and (min-width: 1000px){
+    html {
+        font-size: 1.4rem;
+    }
+    body {
+        background-color: lightgreen
+    }
+}
+
 h1 {
     font-size: 2.25rem;     
 }
