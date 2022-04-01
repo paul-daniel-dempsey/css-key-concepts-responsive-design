@@ -44,6 +44,10 @@ a {
     .descrip {
         display: none;     
     }
+    .card-container {
+        width: 50%;
+        margin: auto;
+    }
 }
 @media only screen and (min-width: 700px){
     .menu {
@@ -57,6 +61,10 @@ a {
     body {
         background-color: lightblue
     }
+    .card-container {
+        width: 80%;
+        margin: auto;
+    }
 }
 @media only screen and (min-width: 1000px){
     html {
@@ -66,6 +74,7 @@ a {
     body {
         background-color: lightgreen
     }
+
 }
 
 h1 {
@@ -79,6 +88,9 @@ p {
 .card-container {
     display: flex;
     flex-flow: row wrap;
+    justify-content:center;
+    width: 80%;
+    margin: auto;
 }
 .card-container>* {
     flex-grow: 0;
